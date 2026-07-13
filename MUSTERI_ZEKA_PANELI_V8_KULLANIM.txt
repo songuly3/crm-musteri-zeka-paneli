@@ -1,0 +1,21 @@
+CRM MÜŞTERİ ZEKÂ PANELİ V8
+
+KAYNAK
+final_musteri_skorlari_FINAL_3MODEL.xlsx
+
+MODEL A
+- Adaylar: Random Forest, XGBoost, LightGBM
+- Kazanan: XGBoost
+- Train / Validation / Test: 609 / 87 / 175
+- Threshold: Validation F1 maksimum yapan 0,53
+
+ÇALIŞTIRMA
+1. ZIP'e sağ tıklayıp Tümünü ayıkla seçeneğini kullanın.
+2. BASLAT_PANEL_V8.bat dosyasına çift tıklayın.
+3. Tarayıcı açılmazsa http://localhost:8506 adresine gidin.
+
+Panel:
+- Yeni Excel dosyasını otomatik okur.
+- Excel seri tarihlerini normal tarihe çevirir.
+- Güncel recency'yi Türkiye tarihine göre hesaplar.
+- XGBoost performansını ve üç model karşılaştırmasını gösterir.
